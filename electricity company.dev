@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char *argv[]) {
+	int units,bill,rate;
+	printf("enter units consumed");
+	scanf("%d"&units);
+	if(units<0){
+		printf("error:units cannot be negative\n");
+		return1;
+	}
+	if(units<=100){
+		rate=50;
+		else if ("units<=200")
+		rate=75;
+		else
+		rate=100;
+		bill=units*rate;
+		printf("bill=%d frs\n",bill);
+	}
+	return 0;
+}
